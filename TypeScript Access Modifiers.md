@@ -4,6 +4,7 @@ TypeScript provides four main modifiers: public, private, protected, and readonl
 
 example:
 
+```
 class Employee {
   public name: string;
   private salary: number;
@@ -20,7 +21,7 @@ class Employee {
   public getDetails(): string {
     return `${this.name} works in ${this.department}.`;
   }
-
+```
 Here private modifier restrict access to the containing class. Attempting to access salary outside Employee will trigger a error also protected allows access within the class and any derived subclasses.
 
 The readonly prevents reassignment after its ran first time.
