@@ -11,7 +11,7 @@ When we run tsc typescript processe files in five phases:
 The tsconfig.json file works as the blueprint for how tsc should run. It configures paths and manage feature flags.
 
 Here a tsconfig example:
-
+```
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -22,5 +22,5 @@ Here a tsconfig example:
   },
   "include": ["src/*"]
 }
-
+```
 The tsc compilation turns typed syntax into standard javascript, while tsconfig.json provides total control over this tsc system.
